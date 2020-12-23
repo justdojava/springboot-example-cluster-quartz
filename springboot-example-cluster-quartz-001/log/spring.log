@@ -1,0 +1,116 @@
+2020-12-09 22:40:31.025  INFO 36679 --- [main] com.example.cluster.quartz.JunitTest     : Starting JunitTest on localhost with PID 36679 (started by panzhi in /Users/panzhi/Documents/pz/coding/learning/springboot-frame-example/springboot-example-cluster-quartz/springboot-example-cluster-quartz-001)
+2020-12-09 22:40:31.037  INFO 36679 --- [main] com.example.cluster.quartz.JunitTest     : No active profile set, falling back to default profiles: default
+2020-12-09 22:40:32.921  INFO 36679 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-09 22:40:33.250  INFO 36679 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 313ms. Found 1 repository interfaces.
+2020-12-09 22:40:34.257  INFO 36679 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d9a8f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-09 22:40:35.181  INFO 36679 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-12-09 22:40:35.346  INFO 36679 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-09 22:40:35.347  INFO 36679 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-09 22:40:35.366  INFO 36679 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/panzhi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-12-09 22:40:35.582  INFO 36679 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-09 22:40:35.582  INFO 36679 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4468 ms
+2020-12-09 22:40:35.704  INFO 36679 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-09 22:40:35.718  INFO 36679 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-09 22:40:35.718  INFO 36679 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-09 22:40:35.719  INFO 36679 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-09 22:40:35.719  INFO 36679 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-09 22:40:35.801  INFO 36679 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-12-09 22:40:36.117  INFO 36679 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-09 22:40:37.180  INFO 36679 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-09 22:40:37.522  INFO 36679 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-12-09 22:40:37.527  INFO 36679 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-09 22:40:37.940  INFO 36679 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-09 22:40:38.458  INFO 36679 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-09 22:40:39.856  INFO 36679 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-09 22:40:40.010  INFO 36679 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-12-09 22:40:40.015  INFO 36679 --- [main] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: main
+2020-12-09 22:40:40.047  INFO 36679 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-09 22:40:40.048  INFO 36679 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2020-12-09 22:40:40.109  INFO 36679 --- [main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-12-09 22:40:40.114  INFO 36679 --- [main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-12-09 22:40:40.116  INFO 36679 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'SsmScheduler' with instanceId 'localhost1607524840013'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-12-09 22:40:40.122  INFO 36679 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'SsmScheduler' initialized from an externally provided properties instance.
+2020-12-09 22:40:40.123  INFO 36679 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2020-12-09 22:40:40.124  INFO 36679 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.example.cluster.quartz.config.QuartzJobFactory@39023dbf
+2020-12-09 22:40:42.198  INFO 36679 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-09 22:40:42.494  INFO 36679 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 22:40:42.615  WARN 36679 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-09 22:40:43.633  INFO 36679 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [SsmScheduler] in 10 seconds
+2020-12-09 22:40:43.756  INFO 36679 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58801 (http) with context path ''
+2020-12-09 22:40:43.763  INFO 36679 --- [main] com.example.cluster.quartz.JunitTest     : Started JunitTest in 13.92 seconds (JVM running for 17.377)
+2020-12-09 22:40:44.120  WARN 36679 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2020-12-09 22:40:44.121 ERROR 36679 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'test-quartz.tb_job_task' doesn't exist
+2020-12-09 22:40:44.151  INFO 36679 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 22:40:44.152  INFO 36679 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler SsmScheduler_$_localhost1607524840013 shutting down.
+2020-12-09 22:40:44.153  INFO 36679 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler SsmScheduler_$_localhost1607524840013 paused.
+2020-12-09 22:40:44.154  INFO 36679 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler SsmScheduler_$_localhost1607524840013 shutdown complete.
+2020-12-09 22:40:44.156  INFO 36679 --- [Thread-5] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-12-09 22:40:44.157  INFO 36679 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-09 22:40:44.163  INFO 36679 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-12-09 22:40:44.169  INFO 36679 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-12-09 22:41:34.579  INFO 36717 --- [main] com.example.cluster.quartz.JunitTest     : Starting JunitTest on localhost with PID 36717 (started by panzhi in /Users/panzhi/Documents/pz/coding/learning/springboot-frame-example/springboot-example-cluster-quartz/springboot-example-cluster-quartz-001)
+2020-12-09 22:41:34.582  INFO 36717 --- [main] com.example.cluster.quartz.JunitTest     : No active profile set, falling back to default profiles: default
+2020-12-09 22:41:36.724  INFO 36717 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-09 22:41:36.879  INFO 36717 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141ms. Found 1 repository interfaces.
+2020-12-09 22:41:38.845  INFO 36717 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31b135d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-09 22:41:40.810  INFO 36717 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-12-09 22:41:41.095  INFO 36717 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-09 22:41:41.096  INFO 36717 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-09 22:41:41.115  INFO 36717 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/panzhi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-12-09 22:41:41.595  INFO 36717 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-09 22:41:41.595  INFO 36717 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6976 ms
+2020-12-09 22:41:41.938  INFO 36717 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-12-09 22:41:41.958  INFO 36717 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-09 22:41:41.959  INFO 36717 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-09 22:41:41.960  INFO 36717 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-09 22:41:41.960  INFO 36717 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-09 22:41:42.125  INFO 36717 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-12-09 22:41:42.467  INFO 36717 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-09 22:41:43.524  INFO 36717 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-09 22:41:43.661  INFO 36717 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-12-09 22:41:43.663  INFO 36717 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-09 22:41:43.890  INFO 36717 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-09 22:41:44.190  INFO 36717 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-09 22:41:45.379  INFO 36717 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-09 22:41:45.515  INFO 36717 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-12-09 22:41:45.519  INFO 36717 --- [main] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: main
+2020-12-09 22:41:45.592  INFO 36717 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-09 22:41:45.594  INFO 36717 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2020-12-09 22:41:45.598  INFO 36717 --- [main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-12-09 22:41:45.604  INFO 36717 --- [main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-12-09 22:41:45.606  INFO 36717 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'SsmScheduler' with instanceId 'localhost1607524905518'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-12-09 22:41:45.606  INFO 36717 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'SsmScheduler' initialized from an externally provided properties instance.
+2020-12-09 22:41:45.606  INFO 36717 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2020-12-09 22:41:45.607  INFO 36717 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.example.cluster.quartz.config.QuartzJobFactory@2416c658
+2020-12-09 22:41:47.401  INFO 36717 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-09 22:41:47.613  INFO 36717 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 22:41:47.719  WARN 36717 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-09 22:41:48.346  INFO 36717 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [SsmScheduler] in 10 seconds
+2020-12-09 22:41:48.409  INFO 36717 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58964 (http) with context path ''
+2020-12-09 22:41:48.413  INFO 36717 --- [main] com.example.cluster.quartz.JunitTest     : Started JunitTest in 15.046 seconds (JVM running for 16.563)
+2020-12-09 22:41:48.819  INFO 36717 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 22:41:48.822  INFO 36717 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler SsmScheduler_$_localhost1607524905518 shutting down.
+2020-12-09 22:41:48.823  INFO 36717 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler SsmScheduler_$_localhost1607524905518 paused.
+2020-12-09 22:41:48.824  INFO 36717 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler SsmScheduler_$_localhost1607524905518 shutdown complete.
+2020-12-09 22:41:48.824  INFO 36717 --- [Thread-5] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-12-09 22:41:48.825  INFO 36717 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-09 22:41:48.828  INFO 36717 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-12-09 22:41:48.835  INFO 36717 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
